@@ -5,7 +5,7 @@
 
 The Unofficial Steam Game Database Information API allows you to retrieve detailed information about Steam games using either the Steam game ID or the full Steam game URL. The API provides game details such as title, genre, developer, publisher, system requirements, and more.
 
-Demo : [https://fadel.nasiwebhost.com/games/]([https://www.openai.com](https://fadel.nasiwebhost.com/games/)
+Demo : [https://fadel.nasiwebhost.com/games/](https://fadel.nasiwebhost.com/games/)
 
 ## API Endpoint
 
