@@ -5,12 +5,14 @@
 
 The Unofficial Steam Game Database Information API allows you to retrieve detailed information about Steam games using either the Steam game ID or the full Steam game URL. The API provides game details such as title, genre, developer, publisher, system requirements, and more.
 
+Demo : [https://fadel.nasiwebhost.com/games/]([https://www.openai.com](https://fadel.nasiwebhost.com/games/)
+
 ## API Endpoint
 
 ### Base URL
 
 ```
-https://fadel.eu.org/api/steam.php?game=
+https://fadel.nasiwebhost.com/games/steam.php?game=
 ```
 
 ### Supported Methods
@@ -26,19 +28,19 @@ You can call the API by appending the Steam game ID or the full Steam game URL t
 #### Using Steam Game ID
 
 ```plaintext
-https://fadel.eu.org/api/steam.php?game=1174180
+https://fadel.nasiwebhost.com/games/steam.php?game=1174180
 ```
 
 #### Using Full Steam Game URL
 
 ```plaintext
-https://fadel.eu.org/api/steam.php?game=https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/
+https://fadel.nasiwebhost.com/games/steam.php?game=https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/
 ```
 
 ### Example Request
 
 ```plaintext
-GET https://fadel.eu.org/api/steam.php?game=1174180
+GET https://fadel.nasiwebhost.com/games/steam.php?game=1174180
 ```
 
 ### Screenshoot
@@ -129,7 +131,7 @@ The API returns a JSON object with the game information.
 import requests
 
 game_id = "1174180"
-url = f"https://fadel.eu.org/api/steam.php?game={game_id}"
+url = f"https://fadel.nasiwebhost.com/games/steam.php?game={game_id}"
 response = requests.get(url)
 
 if response.status_code == 200:
@@ -143,7 +145,7 @@ else:
 
 ```javascript
 const gameId = "1174180";
-const url = `https://fadel.eu.org/api/steam.php?game=${gameId}`;
+const url = `https://fadel.nasiwebhost.com/games/steam.php?game=${gameId}`;
 
 fetch(url)
   .then(response => response.json())
